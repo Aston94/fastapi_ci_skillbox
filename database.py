@@ -34,11 +34,11 @@ class RecipesListOrm(Model):
     cooking_rime_rel = relationship("RecipeOrm", foreign_keys=[cooking_time])
 
 
-async def create_tables():
+async def create_tables(engine):
     async with engine.begin() as conn:
         await conn.run_sync(Model.metadata.create_all)
 
 
-async def drop_tables():
+async def drop_tables(engine):
     async with engine.begin() as conn:
         await conn.run_sync(Model.metadata.drop_all)

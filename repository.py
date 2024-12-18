@@ -29,14 +29,19 @@ class RecipeRepository:
     @classmethod
     async def find_all(cls) -> list[RecipesList] | str:
         async with new_session() as session:
-            query = select(RecipesListOrm).order_by(
-                desc(RecipesListOrm.view_count)).order_by(
-                desc(RecipesListOrm.cooking_time))
+            query = (
+                select(RecipesListOrm)
+                .order_by(desc(RecipesListOrm.view_count))
+                .order_by(desc(RecipesListOrm.cooking_time))
+            )
 
             try:
                 result = await session.execute(query)
                 recipes_list = result.scalars().all()
-                recipes_models = [RecipesList.model_validate(recipe_model, from_attributes=True) for recipe_model in recipes_list]
+                recipes_models = [
+                    RecipesList.model_validate(recipe_model, from_attributes=True)
+                    for recipe_model in recipes_list
+                ]
             except Exception as e:
                 return f"error - {e}"
             return recipes_models
@@ -49,9 +54,11 @@ class RecipeRepository:
             result = recipe.scalars().one_or_none()
 
             if result:
-                query_check_id = (update(RecipesListOrm).where(RecipesListOrm.recipe_id == id).values(
-                    view_count = RecipesListOrm.view_count + 1
-                ))
+                query_check_id = (
+                    update(RecipesListOrm)
+                    .where(RecipesListOrm.recipe_id == id)
+                    .values(view_count=RecipesListOrm.view_count + 1)
+                )
                 await session.execute(query_check_id)
                 await session.commit()
                 validate_result = Recipe.model_validate(result, from_attributes=True)
