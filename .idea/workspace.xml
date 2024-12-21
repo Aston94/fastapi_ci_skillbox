@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="225899e2-d363-4679-9129-7430f16ac34c" name="Changes" comment="structured commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_with_factories.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/script.py.mako" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_with_factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_with_factories.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,25 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for conftest.test_app.executor": "Run",
-    "Python tests.Python tests for test_app.test_get_all_recipes.executor": "Run",
-    "Python tests.Python tests for test_app.test_invalid_recipe_addition.executor": "Run",
-    "Python tests.Python tests for test_app.test_post_create_recipes (1).executor": "Run",
-    "Python tests.Python tests for test_app.test_post_create_recipes.executor": "Run",
-    "Python tests.Python tests for test_with_factories.test_post_create_recipes.executor": "Run",
-    "Python tests.Python tests in test_app.py.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.router.executor": "Run",
-    "Python.test_app (1).executor": "Run",
-    "Python.test_app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/astonxach/algoritms/fastapi_ci_skillbox",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for conftest.test_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_app.test_get_all_recipes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_app.test_invalid_recipe_addition.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_app.test_post_create_recipes (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_app.test_post_create_recipes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_with_factories.test_post_create_recipes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_app.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.router.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_app (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new__branch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/astonxach/algoritms/fastapi_ci_skillbox&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -145,7 +139,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_app.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in /home/astonxach/algoritms/fastapi_ci_skillbox/test_app.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="fastapi_ci_skillbox" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +160,7 @@
         <item itemvalue="Python tests.Python tests for conftest.test_app" />
         <item itemvalue="Python tests.Python tests for test_app.test_post_create_recipes" />
         <item itemvalue="Python tests.Python tests for test_app.test_get_all_recipes" />
-        <item itemvalue="Python tests.Python tests in test_app.py" />
+        <item itemvalue="Python tests.Python tests in /home/astonxach/algoritms/fastapi_ci_skillbox/test_app.py" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +188,39 @@
       <option name="project" value="LOCAL" />
       <updated>1734241206134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="structured commit">
+      <option name="closed" value="true" />
+      <created>1734516231299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734516231299</updated>
+    </task>
+    <task id="LOCAL-00003" summary="structured commit">
+      <option name="closed" value="true" />
+      <created>1734516325153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734516325153</updated>
+    </task>
+    <task id="LOCAL-00004" summary="structured commit">
+      <option name="closed" value="true" />
+      <created>1734610620323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734610620323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="structured commit">
+      <option name="closed" value="true" />
+      <created>1734610697008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734610697008</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
