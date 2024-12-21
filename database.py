@@ -1,6 +1,6 @@
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
-from sqlalchemy import ForeignKey, Integer, String, ForeignKeyConstraint, Table
+from sqlalchemy import ForeignKey, Integer, String, ForeignKeyConstraint
 
 DATABASE_URL = "sqlite+aiosqlite:///recipes.db"
 
