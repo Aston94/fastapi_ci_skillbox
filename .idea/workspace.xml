@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225899e2-d363-4679-9129-7430f16ac34c" name="Changes" comment="structured commit">
+    <list default="true" id="225899e2-d363-4679-9129-7430f16ac34c" name="Changes" comment="it doesn't work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_with_factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_with_factories.py" afterDir="false" />
     </list>
@@ -51,25 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for conftest.test_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_app.test_get_all_recipes.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_app.test_invalid_recipe_addition.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_app.test_post_create_recipes (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_app.test_post_create_recipes.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_with_factories.test_post_create_recipes.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_app.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.router.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_app (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;new__branch&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/astonxach/algoritms/fastapi_ci_skillbox&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for conftest.test_app.executor": "Run",
+    "Python tests.Python tests for test_app.test_get_all_recipes.executor": "Run",
+    "Python tests.Python tests for test_app.test_invalid_recipe_addition.executor": "Run",
+    "Python tests.Python tests for test_app.test_post_create_recipes (1).executor": "Run",
+    "Python tests.Python tests for test_app.test_post_create_recipes.executor": "Run",
+    "Python tests.Python tests for test_with_factories.test_post_create_recipes.executor": "Run",
+    "Python tests.Python tests in test_app.py.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.router.executor": "Run",
+    "Python.test_app (1).executor": "Run",
+    "Python.test_app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "new__branch",
+    "last_opened_file_path": "/home/astonxach/python_advanced_project/python_advanced",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -220,15 +222,50 @@
       <option name="project" value="LOCAL" />
       <updated>1734610697008</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="it doesn't work">
+      <option name="closed" value="true" />
+      <created>1734807149793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734807149793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -236,6 +273,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="structured commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="structured commit" />
+    <MESSAGE value="it doesn't work" />
+    <option name="LAST_COMMIT_MESSAGE" value="it doesn't work" />
   </component>
 </project>

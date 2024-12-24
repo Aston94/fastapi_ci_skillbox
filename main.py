@@ -1,9 +1,9 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 
-from contextlib import asynccontextmanager
-from fastapi.testclient import TestClient
 from database import create_tables, drop_tables
 from router import router as recipe_router
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -17,4 +17,3 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 app.include_router(recipe_router)
-
