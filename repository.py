@@ -1,9 +1,8 @@
+from sqlalchemy import select, update, desc
 from sqlalchemy.exc import IntegrityError
 
 from database import RecipeOrm, RecipesListOrm, new_session
 from schemas import Recipe, RecipesList, RecipeAdd
-import json
-from sqlalchemy import select, update, desc
 
 
 class RecipeRepository:
