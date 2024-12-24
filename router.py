@@ -5,7 +5,7 @@ from schemas import Recipe, RecipesList, RecipeAdd
 from repository import RecipeRepository
 
 
-router = APIRouter(prefix="/recipes", tags=['Рецепты'])
+router = APIRouter(prefix="/recipes", tags=["Рецепты"])
 
 
 @router.post("")

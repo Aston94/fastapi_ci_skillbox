@@ -17,14 +17,14 @@ async def test_post_create_recipes(client_fixture) -> None:
         "dish_title": "гречка",
         "cooking_time": 15,
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     new_response_1 = client_fixture.post("/recipes", json=new_recipe_1)
     new_response_2 = client_fixture.post("/recipes", json=new_recipe_2)
 
-    assert new_response_1.content.decode() == '1'
-    assert new_response_2.content.decode() == '2'
+    assert new_response_1.content.decode() == "1"
+    assert new_response_2.content.decode() == "2"
     assert new_response_1.status_code == 200
     assert new_response_2.status_code == 200
 
@@ -37,27 +37,27 @@ async def test_invalid_recipe_addition(client_fixture) -> None:
         "dish_title": 22,
         "cooking_time": 15,
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     new_data_2 = {
         "dish_title": "новое блюдо",
         "cooking_time": 'asd',
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     new_data_3 = {
         "dish_title": "новое блюдо",
         "cooking_time": 15,
         "ingredient_list": 22,
-        "description": "классика"
+        "description": "классика",
     }
 
     new_data_4 = {
         "dish_title": "новое блюдо",
         "cooking_time": 15,
-        "ingredient_list": "вода, гречневая крупа, соль"
+        "ingredient_list": "вода, гречневая крупа, соль",
     }
 
     new_response_1 = client_fixture.post("/recipes", json=new_data_1)
@@ -79,7 +79,7 @@ async def test_adding_an_existing_recipe(client_fixture) -> None:
         "dish_title": "гречка",
         "cooking_time": 15,
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     client_fixture.post("/recipes", json=new_data)
@@ -88,7 +88,7 @@ async def test_adding_an_existing_recipe(client_fixture) -> None:
         "dish_title": "гречка",
         "cooking_time": 15,
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     new_response_2 = client_fixture.post("/recipes", json=new_data_duplicate)
@@ -115,7 +115,7 @@ async def test_get_recipe_by_id(client_fixture) -> None:
         "dish_title": "гречка",
         "cooking_time": 15,
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     client_fixture.post("/recipes", json=new_data)
