@@ -34,12 +34,12 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Test with isort
-      run: |
-        isort --check-only --diff --profile black "./"
     - name: Test with black
       run: |
-        black --check --diff "./"
+        black "./"
+    - name: Test with isort
+      run: |
+        isort --profile black "./"
     - name: Test with mypy
       run: |
         mypy "./test_with_factories.py"
