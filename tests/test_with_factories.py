@@ -17,14 +17,14 @@ async def test_post_create_recipes(client_fixture) -> None:
         "dish_title": "гречка",
         "cooking_time": 15,
         "ingredient_list": "вода, гречневая крупа, соль",
-        "description": "классика"
+        "description": "классика",
     }
 
     new_response_1 = client_fixture.post("/recipes", json=new_recipe_1)
     new_response_2 = client_fixture.post("/recipes", json=new_recipe_2)
 
-    assert new_response_1.content.decode() == '1'
-    assert new_response_2.content.decode() == '2'
+    assert new_response_1.content.decode() == "1"
+    assert new_response_2.content.decode() == "2"
     assert new_response_1.status_code == 200
     assert new_response_2.status_code == 200
 
