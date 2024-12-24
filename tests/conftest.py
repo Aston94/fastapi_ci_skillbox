@@ -3,7 +3,7 @@ import pytest_asyncio
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 import sys
 
-sys.path.append('../../')
+sys.path.append('.')
 
 from database import Model, new_session
 from main import app as _app
