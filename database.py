@@ -28,7 +28,9 @@ class RecipesListOrm(Model):
     id: Mapped[int] = mapped_column(primary_key=True)
     recipe_id: Mapped[int] = mapped_column(ForeignKey("detailed_recipe_information.id"))
     view_count: Mapped[int]
-    cooking_time: Mapped[int] = mapped_column(ForeignKey("detailed_recipe_information.cooking_time"))
+    cooking_time: Mapped[int] = mapped_column(
+        ForeignKey("detailed_recipe_information.cooking_time")
+    )
 
     recipe_id_rel = relationship("RecipeOrm", foreign_keys=[recipe_id])
     cooking_rime_rel = relationship("RecipeOrm", foreign_keys=[cooking_time])

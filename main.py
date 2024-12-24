@@ -8,11 +8,11 @@ from router import router as recipe_router
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await drop_tables()
-    print('База очищена')
+    print("База очищена")
     await create_tables()
-    print('База создана и готова к работе')
+    print("База создана и готова к работе")
     yield
-    print('Выключение')
+    print("Выключение")
 
 
 app = FastAPI(lifespan=lifespan)

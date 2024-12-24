@@ -5,15 +5,12 @@ from schemas import Recipe, RecipesList, RecipeAdd
 from repository import RecipeRepository
 
 
-router = APIRouter(
-    prefix="/recipes",
-    tags=['Рецепты']
-)
+router = APIRouter(prefix="/recipes", tags=['Рецепты'])
 
 
 @router.post("")
 async def add_recipe(
-        recipe: RecipeAdd,
+    recipe: RecipeAdd,
 ) -> int | dict[str, str]:
 
     recipe_id = await RecipeRepository.add_one(recipe)
