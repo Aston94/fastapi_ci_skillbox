@@ -36,7 +36,7 @@ jobs:
         pytest
     - name: Test with black
       run: |
-        black --diff --check
+        black --diff --check '.'
     - name: Test with mypy
       run: |
         mypy
