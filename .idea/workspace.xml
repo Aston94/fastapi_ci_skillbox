@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="225899e2-d363-4679-9129-7430f16ac34c" name="Changes" comment="it doesn't work">
+    <list default="true" id="225899e2-d363-4679-9129-7430f16ac34c" name="Changes" comment="переделал тесты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_with_factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_with_factories.py" afterDir="false" />
     </list>
@@ -77,6 +77,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
@@ -230,7 +231,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734807149793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="переделал тесты">
+      <option name="closed" value="true" />
+      <created>1735034163715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735034163716</updated>
+    </task>
+    <task id="LOCAL-00008" summary="переделал тесты">
+      <option name="closed" value="true" />
+      <created>1735035256529</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735035256529</updated>
+    </task>
+    <task id="LOCAL-00009" summary="переделал тесты">
+      <option name="closed" value="true" />
+      <created>1735035345250</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735035345250</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +299,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="structured commit" />
     <MESSAGE value="it doesn't work" />
-    <option name="LAST_COMMIT_MESSAGE" value="it doesn't work" />
+    <MESSAGE value="переделал тесты" />
+    <option name="LAST_COMMIT_MESSAGE" value="переделал тесты" />
   </component>
 </project>

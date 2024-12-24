@@ -3,14 +3,16 @@ import pytest_asyncio
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 import sys
 
-sys.path.append('.')
+sys.path.append(".")
 
 from database import Model, new_session
 from main import app as _app
 
 
 _engine = create_async_engine("sqlite+aiosqlite:///./test.db")
-TestSessionLocal = async_sessionmaker(bind=_engine, class_=AsyncSession, expire_on_commit=False)
+TestSessionLocal = async_sessionmaker(
+    bind=_engine, class_=AsyncSession, expire_on_commit=False
+)
 
 
 @pytest_asyncio.fixture(autouse=True, scope="session")
