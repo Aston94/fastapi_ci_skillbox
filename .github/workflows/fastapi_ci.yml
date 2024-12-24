@@ -42,4 +42,4 @@ jobs:
         isort --profile black "./"
     - name: Test with mypy
       run: |
-        mypy "./test_with_factories.py"
+        mypy "./tests/test_with_factories.py"
