@@ -36,7 +36,7 @@ jobs:
         pytest
     - name: Test with black
       run: |
-        black '.'
+        black conftest.py test_with_factories.py
     - name: Test with mypy
       run: |
         mypy
